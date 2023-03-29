@@ -20,3 +20,24 @@ The link to the Spotify playlist : https://open.spotify.com/playlist/37i9dQZEVXb
 4. AWS Glue: A serverless data integration service that makes it easy to discover, prepare, and combine data for analytics and application development.
 5. AWS IAM: This is an identity and access management service which enables us to manage access to AWS services and resources securely.
 6. AWS Clowdwatch Events/Event Bridge : It helps in creating a CloudWatch Events Rule That Triggers on an Event or a particular set interval of time.
+
+## ETL Pipeline - Architectural Diagram
+<img src="ETL Architecture Diagram.jpg">
+
+## Requirements
+Python 3 & Above   
+AWS Services
+#### Python Packages - 
+import spotipy   
+import pandas   
+import json   
+import os   
+import boto3   
+import datetime   
+import io.StringIO   
+
+## 🚀 About Me
+I'm **Saheen AHZAN**   
+An aspiring Big Data Engineer. Steering to transition my career from retail to Big Data.   
+**GitHub id :** saheen619    
+**LinkedIn Profile :** https://www.linkedin.com/in/saheenahzan/
