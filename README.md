@@ -19,24 +19,25 @@ This API contains information about music artist, albums and songs - [Spotify AP
 
 ## AWS Services Used:
 1. Amazon S3: Amazon S3 is an object storage service that provides manufacturing scalability, data availability, security, and performance.    
-
+    
 2. AWS Lambda: Lambda is a computing service that allows programmers to run code without creating or managing servers.    
-
-3. AWS Athena: Athena is an interactive query service for S3 in which there is no need to load data it stays in S3. Glue Crawler is a fully managed service that automatically crawls your data sources, identifies data and infer schemas to create an Glue Data Catalog.   
-
+    
+3. AWS Athena: Athena is an interactive query service for S3 in which there is no need to load data it stays in S3. Glue Crawler is a fully managed service that automatically crawls your data sources, identifies data and infer schemas to create an Glue Data Catalog.    
+    
 4. AWS Glue: A serverless data integration service that makes it easy to discover, prepare, and combine data for analytics and application development.    
-
+    
 5. AWS IAM: This is an identity and access management service which enables us to manage access to AWS services and resources securely.   
-
+    
 6. AWS Clowdwatch Events/Event Bridge : It helps in creating a CloudWatch Events Rule That Triggers on an Event or a particular set interval of time.
 
 ## ETL Pipeline - Architectural Diagram
 <img src="ETL Architecture Diagram.jpg">
 
 ## Requirements
-Python 3 & Above   
+Python 3   
 AWS Services
 #### Python Packages - 
+```python
 import spotipy   
 import pandas   
 import numpy
@@ -45,7 +46,7 @@ import os
 import boto3   
 import datetime   
 import io.StringIO   
-
+```
 ## Authors
 
 [Saheen Ahzan](https://github.com/saheen619)
